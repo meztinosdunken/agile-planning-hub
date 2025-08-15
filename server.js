@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(express.static('public'));
 
 app.get('/api/sprints', (req, res) => {
-  res.send([]); // Placeholder for sprints
+  res.send([]); // Placeholder for sprints, to be replaced with actual data retrieval
 });
 
 app.listen(PORT, () => {
