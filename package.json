@@ -16,6 +16,6 @@
     "nodemon": "^2.0.7"
   },
   "keywords": ["agile", "planning", "sprints", "user stories"],
-  "author": "Updated Author Name",
+  "author": "New Author Name",  
   "license": "MIT"
 }
