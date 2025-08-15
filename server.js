@@ -9,6 +9,8 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(express.static('public'));
 
+// API endpoint to fetch sprints data.
+// Currently returns an empty array as a placeholder.
 app.get('/api/sprints', (req, res) => {
   res.send([]); // Placeholder for sprints, to be replaced with actual data retrieval
 });
